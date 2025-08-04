@@ -21,7 +21,7 @@ export const styles= [
         {
         id:3,
         title: "Kendi Halinde Saçlar",
-        description:" Evet geçen senelerde epey sıkıcılaştık demiştim sanırım. Clean girl akımı, kapsül gardolaplar derken herkes aynı görünmeye başlamıştı. Bence kendi halinde saçlar çok alımlı ve özgüvenli duruyor. Özel günlerde bile kendi haline bırakmayı çok seviyorum ben.",
+        description:" Evet geçen senelerde epey sıkıcılaştık demiştim sanırım. Clean girl akımı, kapsül gardıroplaplar derken herkes aynı görünmeye başlamıştı. Bence kendi halinde saçlar çok alımlı ve özgüvenli duruyor. Özel günlerde bile kendi haline bırakmayı çok seviyorum ben.",
         link: "https://tr.pinterest.com/search/pins/?q=natural%20hair%20styles&rs=ac&len=11&source_id=ac_gXRLukYH&eq=natural%20hai&etslf=4075",
         image: hair
     },
