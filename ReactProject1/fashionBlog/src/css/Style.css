@@ -1,0 +1,59 @@
+.style-main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.style {
+  background-color: #ffffff; /* Kart arka planı beyaz */
+  border-radius: 12px;       /* Kenarları yumuşak yuvarlak yapar */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Hafif gölge verir */
+  overflow: hidden;         /* Kart içinde taşan içerikleri gizler */
+  text-align: center;       /* Kart içeriğini ortalar */
+  width: 300px;             /* Kart genişliğini sabitler */
+  transition: transform 0.2s ease, box-shadow 0.2s ease; /* Hover animasyonu için geçiş efekti */
+  display: flex;            /* İçerikleri dikey hizalamak için flex konteyner yapar */
+  flex-direction: column;   /* Elemanları yukarıdan aşağıya sıralar */
+  margin: 20px;
+}
+
+.style:hover {
+  transform: translateY(-5px); /* Hover’da kartı hafif yukarı kaldırır */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15); /* Hover’da daha belirgin gölge verir */
+}
+
+.style img {
+  width: 100%;       /* Görselin kart genişliğini tamamen kaplamasını sağlar */
+  height: auto;      /* Görselin oranını korur */
+  display: block;    /* Alt boşluk problemini çözer */
+}
+
+.style h3 {
+  font-size: 1.4em;            /* Başlık boyutu */
+  margin: 15px 0 10px 0;       /* Üst, sağ, alt, sol margin */
+  color: #333;                 /* Koyu gri başlık rengi */
+}
+
+.style h5 {
+  font-size: 0.95em;                   /* Açıklama yazısı boyutu */
+  margin: 0 15px 15px 15px;            /* Kenarlardan boşluk bırakır */
+  color: #555;                         /* Orta ton gri yazı rengi */
+  text-align: left;                   /* Uzun metinlerde soldan hizalama */
+  line-height: 1.5;                   /* Satırlar arasında mesafe açar, okunabilirliği artırır */
+  word-break: break-word;             /* Uzun kelimelerin taşmasını engeller */
+  flex-grow: 1;                       /* Açıklama alanının kartın dikey boşluğunu doldurmasına izin verir */
+}
+
+.style a {
+  display: inline-block;    /* Linki blok gibi davranıp margin uygulanabilmesini sağlar */
+  margin: 15px;             /* Linkin etrafına boşluk bırakır */
+  color: #0000ee;           /* Klasik link mavisi */
+  text-decoration: none;    /* Alt çizgiyi kaldırır */
+  font-weight: bold;        /* Link yazısını kalın yapar */
+  font-size: 0.95em;        /* Link yazısı boyutu */
+}
+
+.style a:hover {
+  text-decoration: underline; /* Hover’da linkin altını çizer */
+}
